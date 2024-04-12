@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DARoots Version="1" Minor="26">
+  <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../stall.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../pc.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../npc.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../mul_div.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../MEM_WB.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../im.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../IF_ID.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../ID_EX.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../grf.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../forward_mux.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../forward.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../EX_MEM.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../ext.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../dm_ext.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../dm.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../ctrl_mux.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../controller.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../cmp.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../alu.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../mips.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/import_ise_summary.txt"/>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="mips"/>
+    </Config>
+  </FileSet>
+</DARoots>

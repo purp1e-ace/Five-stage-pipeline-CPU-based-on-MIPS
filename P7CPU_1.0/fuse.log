@@ -1,0 +1,60 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Users/Don_Zhou/Desktop/study/CO/P6/P6CPU 1.0/tb_isim_beh.exe -prj C:/Users/Don_Zhou/Desktop/study/CO/P6/P6CPU 1.0/tb_beh.prj work.tb work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 12
+Turning on mult-threading, number of parallel sub-compilation jobs: 24 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/Don_Zhou/Desktop/study/CO/P6/P6CPU 1.0/stall.v" into library work
+Analyzing Verilog file "C:/Users/Don_Zhou/Desktop/study/CO/P6/P6CPU 1.0/pc.v" into library work
+Analyzing Verilog file "C:/Users/Don_Zhou/Desktop/study/CO/P6/P6CPU 1.0/npc.v" into library work
+Analyzing Verilog file "C:/Users/Don_Zhou/Desktop/study/CO/P6/P6CPU 1.0/mul_div.v" into library work
+Analyzing Verilog file "C:/Users/Don_Zhou/Desktop/study/CO/P6/P6CPU 1.0/MEM_WB.v" into library work
+Analyzing Verilog file "C:/Users/Don_Zhou/Desktop/study/CO/P6/P6CPU 1.0/im.v" into library work
+Analyzing Verilog file "C:/Users/Don_Zhou/Desktop/study/CO/P6/P6CPU 1.0/IF_ID.v" into library work
+Analyzing Verilog file "C:/Users/Don_Zhou/Desktop/study/CO/P6/P6CPU 1.0/ID_EX.v" into library work
+Analyzing Verilog file "C:/Users/Don_Zhou/Desktop/study/CO/P6/P6CPU 1.0/grf.v" into library work
+Analyzing Verilog file "C:/Users/Don_Zhou/Desktop/study/CO/P6/P6CPU 1.0/forward_mux.v" into library work
+Analyzing Verilog file "C:/Users/Don_Zhou/Desktop/study/CO/P6/P6CPU 1.0/forward.v" into library work
+Analyzing Verilog file "C:/Users/Don_Zhou/Desktop/study/CO/P6/P6CPU 1.0/EX_MEM.v" into library work
+Analyzing Verilog file "C:/Users/Don_Zhou/Desktop/study/CO/P6/P6CPU 1.0/ext.v" into library work
+Analyzing Verilog file "C:/Users/Don_Zhou/Desktop/study/CO/P6/P6CPU 1.0/dm_ext.v" into library work
+Analyzing Verilog file "C:/Users/Don_Zhou/Desktop/study/CO/P6/P6CPU 1.0/dm.v" into library work
+Analyzing Verilog file "C:/Users/Don_Zhou/Desktop/study/CO/P6/P6CPU 1.0/ctrl_mux.v" into library work
+Analyzing Verilog file "C:/Users/Don_Zhou/Desktop/study/CO/P6/P6CPU 1.0/controller.v" into library work
+Analyzing Verilog file "C:/Users/Don_Zhou/Desktop/study/CO/P6/P6CPU 1.0/cmp.v" into library work
+Analyzing Verilog file "C:/Users/Don_Zhou/Desktop/study/CO/P6/P6CPU 1.0/alu.v" into library work
+Analyzing Verilog file "C:/Users/Don_Zhou/Desktop/study/CO/P6/P6CPU 1.0/mips.v" into library work
+Analyzing Verilog file "C:/Users/Don_Zhou/Desktop/study/CO/P6/P6CPU 1.0/tb.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "C:/Users/Don_Zhou/Desktop/study/CO/P6/P6CPU 1.0/mips.v" Line 121: Port RegDst is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Users/Don_Zhou/Desktop/study/CO/P6/P6CPU 1.0/mips.v" Line 129: Port rt is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Users/Don_Zhou/Desktop/study/CO/P6/P6CPU 1.0/mips.v" Line 135: Port rt is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Users/Don_Zhou/Desktop/study/CO/P6/P6CPU 1.0/mips.v" Line 140: Port rt is not connected to this instance
+Completed static elaboration
+Compiling module pc
+Compiling module im
+Compiling module IF_ID
+Compiling module controller
+Compiling module grf
+Compiling module cmp
+Compiling module ext
+Compiling module npc
+Compiling module ID_EX
+Compiling module alu
+Compiling module mul_div
+Compiling module EX_MEM
+Compiling module dm
+Compiling module MEM_WB
+Compiling module dm_ext
+Compiling module ctrl_mux
+Compiling module forward_mux
+Compiling module stall
+Compiling module forward
+Compiling module mips
+Compiling module tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 22 Verilog Units
+Built simulation executable C:/Users/Don_Zhou/Desktop/study/CO/P6/P6CPU 1.0/tb_isim_beh.exe
+Fuse Memory Usage: 38380 KB
+Fuse CPU Usage: 874 ms
